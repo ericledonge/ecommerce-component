@@ -8,7 +8,7 @@ All the code is mine, don't blame James for that 😝
 
 # Demo
 
-You can use it there: https://app.netlify.com/sites/sleepy-feynman-aad6d3/overview
+You can use it there: https://sleepy-feynman-aad6d3.netlify.app/
 
 # Specs
 
