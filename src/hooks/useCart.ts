@@ -4,6 +4,7 @@ import {
   addToCart,
   Cart,
   decreaseItemQuantityInCart,
+  formatPrice,
   getCartSubtotal,
   getCartTaxesTotal,
   getCartTotal,
@@ -38,5 +39,6 @@ export const useCart = () => {
     getCartSubtotal,
     getCartTaxesTotal,
     getCartTotal,
+    formatPrice,
   };
 };

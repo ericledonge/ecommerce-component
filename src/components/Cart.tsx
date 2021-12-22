@@ -11,6 +11,7 @@ type CartProps = {
   getCartSubtotal: Function;
   getCartTaxesTotal: Function;
   getCartTotal: Function;
+  formatPrice: Function;
 };
 
 const Cart = ({
@@ -21,6 +22,7 @@ const Cart = ({
   getCartSubtotal,
   getCartTaxesTotal,
   getCartTotal,
+  formatPrice,
 }: CartProps) => {
   return (
     <div className="panel cart">
@@ -36,6 +38,7 @@ const Cart = ({
               cartLine={cartLine}
               onDecreaseItemQuantityInCart={onDecreaseItemQuantityInCart}
               onIncreaseItemQuantityInCart={onIncreaseItemQuantityInCart}
+              formatPrice={formatPrice}
             />
           ))}
         </ul>

@@ -7,12 +7,14 @@ type CartItemProps = {
   cartLine: CartLineModel;
   onDecreaseItemQuantityInCart: Function;
   onIncreaseItemQuantityInCart: Function;
+  formatPrice: Function;
 };
 
 const CartLine = ({
   cartLine,
   onDecreaseItemQuantityInCart,
   onIncreaseItemQuantityInCart,
+  formatPrice,
 }: CartItemProps) => {
   const handleOnDecreaseItemQuantityInCart = (item: Item) =>
     onDecreaseItemQuantityInCart(item);
@@ -50,7 +52,9 @@ const CartLine = ({
         </button>
       </div>
 
-      <div className="subtotal">${cartLine.item.unitPrice}</div>
+      <div className="subtotal">
+        ${formatPrice(cartLine.item.unitPrice * cartLine.quantity)}
+      </div>
     </li>
   );
 };

@@ -20,6 +20,7 @@ function App() {
     getCartSubtotal,
     getCartTaxesTotal,
     getCartTotal,
+    formatPrice,
   } = useCart();
 
   return (
@@ -39,6 +40,7 @@ function App() {
         getCartSubtotal={getCartSubtotal}
         getCartTaxesTotal={getCartTaxesTotal}
         getCartTotal={getCartTotal}
+        formatPrice={formatPrice}
       />
     </div>
   );
