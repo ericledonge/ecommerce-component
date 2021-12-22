@@ -2,7 +2,9 @@
 
 Project inspired by James Q Quick initiative [Advent of Javascript](https://www.adventofjs.com/)
 
-All the code is mine, don't blame James for that.
+All the code is mine, don't blame James for that 😝
+
+<img width="836" alt="Capture d’écran, le 2021-12-22 à 14 05 52" src="https://user-images.githubusercontent.com/6333396/147142720-a5950b19-3585-4d50-88ec-50a7656ac924.png">
 
 # Demo
 
